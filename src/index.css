@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1.1rem;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main{
+    background-color: #06f5f5;
+    color: #080808fb;
+    padding: 1rem 14rem 1rem;
+}
+
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:#ec0edd;
+    padding: 1rem;
+}
+
+nav a{
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06f5f5;
+    color: #080808fb;
+    border-radius: 1rem;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding:1rem 8rem 1rem;
+    background-color: #e9f907;
+
+}
+
+form input{
+    width: 100%;
+    padding: 1rem 5rem 1rem;
+}
+
+form:last-child{
+    width: 100%;
+}
+
+form:last-child button{
+    background-color:#ec0edd;
+}
+
+button{
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+ul{
+    width: 50vw;
+    height: 25vh;
+    max-height: 25vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+ul li{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding: 1rem;
+    background-color:#e9f907;
+}
